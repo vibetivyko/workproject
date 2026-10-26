@@ -64,3 +64,12 @@ export default function CrmPanel({ open, onClose }: { open: boolean; onClose: ()
     </div>
   );
 }
+a[href*="bolt.new"],
+a[href*="bolt.run"],
+[class*="bolt-badge"],
+[id*="bolt-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
